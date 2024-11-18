@@ -1,0 +1,159 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1em;
+}
+
+
+
+.auth-buttons .btn {
+    padding: 0.5em 1em;
+    margin-right: 1rem;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.custom-link {
+    color: rgb(199, 39, 39) ; 
+    text-decoration: none;
+    }
+
+.custom-link:visited {
+    color: white; 
+    }       
+
+.login {
+    background-color: #555;
+    color: #ffffff
+    
+}
+
+.signup {
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+} 
+
+
+.hero {
+    background-image: url('pexels-felixmittermeier-956981.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2em;
+    text-align: center;
+    width: 100%;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: auto;
+}
+
+.hero-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.hero-content p {
+    margin-bottom: 1.5em;
+}
+
+.quiz-image img {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 1.5em;
+}
+
+.quiz-btn {
+    background-color: #28a745;
+    color: #fff;
+    padding: 0.75em 1.5em;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.quiz-btn:hover {
+    background-color: #218838;
+}
+
+
+.features {
+    padding: 3em 1em;
+    text-align: center;
+    background-color: #fff;
+}
+
+.features h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.features p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+.footer-links a {
+    color: #ddd;
+    text-decoration: none;
+    margin: 0 0.5em;
+    font-size: 0.9em;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
